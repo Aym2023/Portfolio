@@ -1,0 +1,67 @@
+/* Start Header */
+ :root {
+--main-color: #3a6cf4;
+ }
+
+ body {
+    font-family: 'Manrope', sans-serif;
+  }
+  
+
+
+.header  {
+    position: relative;
+}
+
+.header .contianer {
+position: absolute;
+/* background: url(img/Ayman\ Pho.jpg) ; */
+
+}
+
+.header .main-nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: var(--main-color);
+/* background-image: url(img/DSC_0081.JPG); */
+}
+
+.header .main-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+        }
+    
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background:url(img/Ayman.jpg) no-repeat;
+    background-size:right contain;
+    /* background-color: white; */
+    background-position: center ;
+    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    /* font-weight: bold; */
+    
+
+}
+
+
+.section .position h3 {
+color: var(--main-color);
+}
+
+
+/* .section .contianer button {
+    border-radius: 50%;
+    background-color: var(--main-color);
+} */
+
+/* .section  .social-icons a i {
+font-size: 40px;
+font-weight: bold;
+color:black;
+} */
+/* End Header */
