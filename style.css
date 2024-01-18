@@ -50,9 +50,10 @@ header {
 .main {
     width: 100%;
     min-height: 100vh;
-    background-color:#f0f0f0 ; 
-    background:url(img/Ayman.jpg) no-repeat;
-    background-size: 200px 250px ;
+    background-color:#e49898 ; 
+    background:url(img/AymanAlex.jpg) no-repeat ;
+    background-size: 60% ;
+    /* background-size: cover; */
     background-position: center ;
     background-attachment: fixed;
     padding:100px 200px ;  
@@ -106,7 +107,7 @@ header {
  .social-icons  a  {
    font-size: 1.7em;
    font-weight: 400px;
-   color:var(--secondary--color);
+   color:var(--main-color);
    margin-top: 10px;
 } 
 
