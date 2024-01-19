@@ -50,7 +50,7 @@ header {
 .main {
     width: 100%;
     min-height: 100vh;
-    background-color:#e49898 ; 
+    /* background-color:#e49898 ;  */
     background:url(img/AymanAlex.jpg) no-repeat ;
     background-size: 60% ;
     /* background-size: cover; */
