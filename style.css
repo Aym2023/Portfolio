@@ -114,31 +114,31 @@ header {
 /* End Main */
 
 /* Start Services */
-.services {
+ /* .services {
   display: flex;
   flex-direction: column;
   padding: 20px 80px;
-  /* flex-wrap: wrap; */
-}
-
+  flex-wrap: wrap;
+ } */
+ 
 
 .services h2 {
   display: flex;
   justify-content: center;
   color: var(--main-color);
-  font-size: 1.8em;
+  font-size:2.2em;
   font-weight: 800;
   margin-bottom: 30px ;
 }
 
 .content {
   display: flex;
-  flex-direction:column;
   justify-content: center;
+  flex-direction:row;
   flex-wrap: wrap;
 }
 
-.content .card {
+ .card {
   background-color: var(--secondary--color);
   width: 21.25em;
   padding: 25px;
@@ -147,9 +147,22 @@ header {
   border-radius: 10%;
 }
 
-.content .card .icon {
+ .card .icon {
   font-size: 8em;
   color:var(--main-color);
+  text-align: center;
 }
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  color: var(--main-color);
+  font-size: 1.2em;
+  font-weight:700;
+  margin: 10px;
+}
+
 /* End Services */
 
