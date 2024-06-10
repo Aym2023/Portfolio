@@ -279,9 +279,13 @@ transform: scale(1.1);
   font-size: 1.1em;
   font-weight: 500;
 }
-
+.linkedin {
+  color: #000;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+}
 
 /* End Conact */
   
-/* End Projects */
 
