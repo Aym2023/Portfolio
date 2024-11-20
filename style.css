@@ -14,8 +14,6 @@
     scroll-behavior: smooth;
   }
   
-/* Start Header */
-
 header {
     background-color:#f0f0f0 ;
     color: var(--main-color);
@@ -46,7 +44,6 @@ header {
   color: #601cfc;
      }
 
-/* Start Main */
     
 .main {
     width: 100%;
@@ -93,7 +90,7 @@ header {
     display: inline-block;
     padding: 0.9375em 2.1875em;;
     letter-spacing: 1px;
-    border-radius: 15%;
+    border-radius: 4%;
     margin-bottom: 40px;
     transition: 0.7s ease;
 }
